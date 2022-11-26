@@ -152,3 +152,60 @@
   
 
 4. Test dengan ping (test setiap client ke server)
+
+
+# GNS3 - CIDR
+1. Mencari dan mengelompokkan tiap subnet
+
+![](pic/Modul4.png)
+
+2. Menentukan IP untuk tiap subnet
+
+![](pic/Modul4_Tree.png)
+
+3. Mencari IP tiap node
+
+| Subnet | Node                  | IP           | Subnet Mask     | Length |
+| ------ | --------------------- | ------------ | --------------- | ------ |
+| A1     | The Minister (eth1)   | 10.21.2.1    | 255.255.252.0   | /22    |
+| A1     | Guideau               | 10.21.2.2    | 255.255.252.0   | /22    |
+| A2     | The Dauntless (eth1)  | 10.21.0.1    | 255.255.255.0   | /24    |
+| A2     | Phanora               | 10.21.0.2    | 255.255.255.0   | /24    |
+| A2     | Johan                 | 10.21.0.3    | 255.255.255.0   | /24    |
+| A3     | The Minister (eth2)   | 10.21.1.1    | 255.255.255.252 | /30    |
+| A3     | The Dauntless (eth0)  | 10.21.1.2    | 255.255.255.252 | /30    |
+| A4     | The Minister (eth0)   | 10.21.8.1    | 255.255.255.252 | /30    |
+| A4     | The Order (eth2)      | 10.21.8.2    | 255.255.255.252 | /30    |
+| A5     | The Order (eth1)      | 10.21.16.1   | 255.255.255.192 | /26    |
+| A5     | Ashaf                 | 10.21.16.2   | 255.255.255.192 | /26    |
+| A6     | The Order (eth0)      | 10.21.32.1   | 255.255.255.252 | /30    |
+| A6     | The Resonance (eth2)  | 10.21.32.2   | 255.255.255.252 | /30    |
+| A7     | The Resonance (eth3)  | 10.21.80.1   | 255.255.255.252 | /30    |
+| A7     | The Instrument (eth0) | 10.21.80.2   | 255.255.255.252 | /30    |
+| A8     | The Instrument (eth1) | 10.21.74.1   | 255.255.255.128 | /25    |
+| A8     | Matt Cugat            | 10.21.74.2   | 255.255.255.128 | /25    |
+| A9     | The Instrument (eth3) | 10.21.68.1   | 255.255.255.252 | /30    |
+| A9     | The Firefist (eth0)   | 10.21.68.2   | 255.255.255.252 | /30    |
+| A10    | The Firefist(eth1)    | 10.21.64.1   | 255.255.255.0   | /24    |
+| A10    | The Queen (eth0)      | 10.21.64.2   | 255.255.255.0   | /24    |
+| A10    | Keith                 | 10.21.64.3   | 255.255.255.0   | /24    |
+| A11    | The Queen (eth1)      | 10.21.65.1   | 255.255.255.252 | /30    |
+| A11    | The Witch             | 10.21.65.2   | 255.255.255.252 | /30    |
+| A12    | The Firefist (eth2)   | 10.21.66.1   | 255.255.254.0   | /23    |
+| A12    | Oakleave              | 10.21.66.2   | 255.255.254.0   | /23    |
+| A13    | The instrument (eth2) | 10.21.73.1   | 255.255.255.252 | /30    |
+| A13    | The Profound (eth0)   | 10.21.73.2   | 255.255.255.252 | /30    |
+| A14    | The Profound (eth2)   | 10.21.72.1   | 255.255.255.128 | /25    |
+| A14    | Helga                 | 10.21.72.2   | 255.255.255.128 | /25    |
+| A15    | The Profound (eth1)   | 10.21.72.129 | 255.255.255.128 | /25    |
+| A15    | Spendrow              | 10.21.72.130 | 255.255.255.128 | /25    |
+| A16    | The Resonance (eth4)  | 10.21.98.1   | 255.255.255.252 | /30    |
+| A16    | The Magical (eth0)    | 10.21.98.2   | 255.255.255.252 | /30    |
+| A17    | The Magical (eth1)    | 10.21.96.1   | 255.255.254.0   | /23    |
+| A17    | Haines                | 10.21.96.2   | 255.255.254.0   | /23    |
+| A17    | Corvekt               | 10.21.96.3   | 255.255.254.0   | /23    |
+| A18    | The Resonance (eth1)  | 10.21.100.1  | 255.255.255.252 | /30    |
+| A18    | The Beast             | 10.21.100.2  | 255.255.255.252 | /30    |
+
+4. Melakukan konfigurasi untuk tiap node
+5. 
