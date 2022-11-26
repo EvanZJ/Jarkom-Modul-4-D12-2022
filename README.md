@@ -102,5 +102,53 @@
  
   ![](pic/routing-the-queen.png)
   
+  - Client Guideau
+
+  ![](pic/client-guideau.png)
+  
+  - Client Ashaf
+
+  ![](pic/client-ashaf.png)
+  
+  - Server The Beast
+
+  ![](pic/client-the-beast.png)
+    
+  - Client Matt Cugat
+
+  ![](pic/client-matt-cugat.png)
+    
+  - Server Corvekt
+
+  ![](pic/client-corvekt.png)
+    
+  - Client Spendrow
+
+  ![](pic/client-spendrow.png)
+      
+  - Client Phanora
+
+  ![](pic/client-phanora.png)
+      
+  - Client Johan
+
+  ![](pic/client-johan.png)
+      
+  - Client Keith
+
+  ![](pic/client-keith.png)
+      
+  - Client Oakleave
+
+  ![](pic/client-oakleave.png)
+      
+  - Client Helga
+
+  ![](pic/client-helga.png)
+      
+  - Server The Witch
+
+  ![](pic/client-the-witch.png)
+  
 
 4. Test dengan ping (test setiap client ke server)
