@@ -15,7 +15,7 @@
 3. Membuat pembagian ip dari Subnetting tersebut 
 | Subnet | Jumlah IP | Netmask |
 | ------ | --------- | ------- |
-|A1|1000|/22|
+|   A1   |   1000    |   /22   |
 A2	2	/30
 A3	2	/30
 A4	250	/24
