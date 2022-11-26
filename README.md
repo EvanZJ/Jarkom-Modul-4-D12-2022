@@ -61,4 +61,36 @@
 |A13|	/30|	2|	2|	255.255.255.252|	10.21.11.216/30|	10.21.11.217|	10.21.11.218|	10.21.11.219|
 |A14|	/30|	2|	2|	255.255.255.252|	10.21.11.220/30|	10.21.11.221|	10.21.11.222|	10.21.11.223|
 |A15|	/30|	2|	2|	255.255.255.252|	10.21.11.224/30|	10.21.11.225|	10.21.11.226|	10.21.11.227|
-|Total|		2608|	2618|					
+|Total|		2608|	2618|
+
+3. Masukkan IP berdasarkan subnetting yang sudah dibuat di dalam Packet Tracer
+  - Router The Minister
+  ![](pic/routing-the-minister.png)
+  
+  - Router The Order
+  ![](pic/routing-the-order.png)
+  
+  - Router The Resonance
+  ![](pic/routing-the-resonance.png)
+  ![](pic/routing-the-resonance-2.png)
+  
+  - Router The Magical
+  ![](pic/routing-the-magical.png)
+  
+  - Router The Dauntless
+  ![](pic/routing-the-dauntless.png)
+  
+  - Router The Instrument
+  ![](pic/routing-the-instrument.png)
+  
+  - Router The Profound
+  ![](pic/routing-the-profound.png)
+  
+  - Router The Firefist
+  ![](pic/routing-the-firefist.png)
+  
+  - Router The Queen
+  ![](pic/routing-the-queen.png)
+  
+
+4. Test dengan ping (test setiap client ke server)
