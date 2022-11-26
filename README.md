@@ -12,7 +12,8 @@
 2. Membuat Subnetting dengan teknik VLSM
 ![](pic/vlsm.png)
 
-3. Membuat pembagian ip dari Subnetting tersebut 
+3. Membuat pembagian ip dari Subnetting tersebut
+
 | Subnet | Jumlah IP | Netmask |
 | ------ | --------- | ------- |
 |   A1   |   1000    |   /22   |
