@@ -72,6 +72,7 @@
   
   - Router The Resonance
   ![](pic/routing-the-resonance.png)
+  
   ![](pic/routing-the-resonance-2.png)
   
   - Router The Magical
