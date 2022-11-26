@@ -295,6 +295,16 @@ address 10.21.68.1
 netmask 255.255.255.252
 ```
 
+- Matt Cugat
+
+```
+auto eth0
+iface eth0 inet static
+address 10.21.74.2
+netmask 255.255.255.128
+gateway 10.21.74.1
+```
+
 - The Profound
 
 ```
@@ -496,3 +506,55 @@ gateway 10.21.0.1
 ```
 
 5. Melakukan Routing 
+
+- The Dauntless
+
+![](pic/routing_dauntless.png)
+
+- The Firefist
+
+![](pic/routing_firefist.png)
+
+- The Instrument
+
+![](pic/routing_instrument.png)
+
+- The Minister
+
+![](pic/routing_minister.png)
+
+- The Order
+
+![](pic/routing_order.png)
+
+- The Queen
+
+![](pic/routing_queen.png)
+
+- The Resonance
+ 
+![](pic/routing_resonance.png)
+
+
+
+### Revisi Ping CIDR
+
+- Guideau - Firefist
+ 
+![](pic/ping_guideau_firefist.png)
+
+- Matt Cugat - Corvekt 
+
+![](pic/ping_mattcugat_corvekt.png)
+
+- Haines - Keith
+ 
+![](pic/ping_haines_keith.png)
+
+- Corvekt - Minister
+
+![](pic/ping_corvekt_minister.png)
+
+- Guideau - Helga
+ 
+![](pic/ping_guideau_helga.png)
