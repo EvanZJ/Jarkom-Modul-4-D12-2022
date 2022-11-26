@@ -1,4 +1,4 @@
-# Jarkom Modul 4 D12
+# Jarkom - Modul - 4 - D12 - 2022
   | Anggota | NRP | Bagian yang Dikerjakan |
   | ------- | --- | ---------------------- |
   | Hafizh Mufid Darussalam        | 5025201093 | |
