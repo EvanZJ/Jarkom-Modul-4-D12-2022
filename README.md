@@ -355,6 +355,144 @@ address 10.21.66.1
 netmask 255.255.254.0
 ```
 
-- 
+- Oakleve
 
-5. 
+```
+auto eth0
+iface eth0 inet static
+address 10.21.66.2
+netmask 255.255.254.0
+gateway 10.21.66.1
+```
+
+- Keith
+
+```
+auto eth0
+iface eth0 inet static
+address 10.21.64.3
+netmask 255.255.255.0
+gateway 10.21.64.1
+```
+
+- The Queen
+
+```
+auto eth0
+iface eth0 inet static
+address 10.21.64.2
+netmask 255.255.255.0
+gateway 10.21.64.1
+
+auto eth1
+iface eth1 inet static
+address 10.21.65.1
+netmask 255.255.255.252
+```
+
+- The Witch
+
+```
+auto eth0
+iface eth0 inet static
+address 10.21.65.2
+netmask 255.255.255.252
+gateway 10.21.65.1
+```
+
+- The Order
+
+```
+auto eth0
+iface eth0 inet static
+address 10.21.32.1
+netmask 255.255.255.252
+gateway 10.21.32.2
+
+auto eth1
+iface eth1 inet static
+address 10.21.16.1
+netmask 255.255.255.192
+
+auto eth2
+iface eth2 inet static
+address 10.21.8.2
+netmask 255.255.255.252
+```
+
+- Ashaf
+
+```
+auto eth0
+iface eth0 inet static
+address 10.21.16.2
+netmask 255.255.255.192
+gateway 10.21.16.1
+```
+
+- The Minister
+
+```
+auto eth0
+iface eth0 inet static
+address 10.21.8.1
+netmask 255.255.255.252
+gateway 10.21.8.2
+
+auto eth1
+iface eth1 inet static
+address 10.21.2.1
+netmask 255.255.252.0
+
+auto eth2
+iface eth2 inet static
+address 10.21.1.1
+netmask 255.255.255.252
+```
+
+- Guideau
+
+```
+auto eth0
+iface eth0 inet static
+address 10.21.2.2
+netmask 255.255.252.0
+gateway 10.21.2.1
+```
+
+- The Dauntless
+
+```
+auto eth0
+iface eth0 inet static
+address 10.21.1.2
+netmask 255.255.255.252
+gateway 10.21.1.1
+
+auto eth1
+iface eth1 inet static
+address 10.21.0.1
+netmask 255.255.255.0
+```
+
+- Phanora
+
+```
+auto eth0
+iface eth0 inet static
+address 10.21.0.2
+netmask 255.255.255.0
+gateway 10.21.0.1
+```
+
+- Johan
+
+```
+auto eth0
+iface eth0 inet static
+address 10.21.0.3
+netmask 255.255.255.0
+gateway 10.21.0.1
+```
+
+5. Melakukan Routing 
