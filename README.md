@@ -208,4 +208,153 @@
 | A18    | The Beast             | 10.21.100.2  | 255.255.255.252 | /30    |
 
 4. Melakukan konfigurasi untuk tiap node
+
+- The Resonance
+
+```
+auto eth0
+iface eth0 inet dhcp
+
+auto eth1
+iface eth1 inet static
+address 10.21.100.1
+netmask 255.255.252.0
+
+auto eth2
+iface eth2 inet static
+address 10.21.32.2
+netmask 255.255.255.252
+
+auto eth3
+iface eth3 inet static
+address 10.21.80.1
+netmask 255.255.255.252
+
+auto eth4
+iface eth4 inet static
+address 10.21.98.1
+netmask 255.255.255.252
+```
+
+- The Magical
+
+```
+auto eth0
+iface eth0 inet static
+address 10.21.98.2
+netmask 255.255.255.252
+gateway 10.21.98.1
+
+auto eth1
+iface eth1 inet static
+address 10.21.96.1
+netmask 255.255.252.0
+```
+- Haines
+
+```
+auto eth0
+iface eth0 inet static
+address 10.21.96.2
+netmask 255.255.254.0
+gateway 10.21.96.1
+```
+
+- Corvekt
+
+```
+auto eth0
+iface eth0 inet static
+address 10.21.96.3
+netmask 255.255.254.0
+gateway 10.21.96.1
+```
+
+- The Instrument
+
+```
+auto eth0
+iface eth0 inet static
+address 10.21.80.2
+netmask 255.255.255.252
+gateway 10.21.80.1
+
+auto eth1
+iface eth1 inet static
+address 10.21.74.1
+netmask 255.255.255.128
+
+auto eth2
+iface eth2 inet static
+address 10.21.73.1
+netmask 255.255.255.252
+
+auto eth3
+iface eth3 inet static
+address 10.21.68.1
+netmask 255.255.255.252
+```
+
+- The Profound
+
+```
+auto eth0
+iface eth0 inet static
+address 10.21.73.2
+netmask 255.255.255.252
+gateway 10.21.73.1
+
+auto eth1
+iface eth1 inet static
+address 10.21.72.129
+netmask 255.255.255.128
+
+auto eth2
+iface eth2 inet static
+address 10.21.72.1
+netmask 255.255.255.128
+```
+
+- Spendrow
+
+```
+auto eth0
+iface eth0 inet static
+address 10.21.72.130
+netmask 255.255.255.128
+gateway 10.21.72.129
+```
+
+- Helga
+
+```
+auto eth0
+iface eth0 inet static
+address 10.21.72.2
+netmask 255.255.255.128
+gateway 10.21.72.1
+```
+
+- The Firefist
+
+```
+auto eth0
+iface eth0 inet static
+address 10.21.68.2
+netmask 255.255.255.252
+gateway 10.21.68.1
+
+auto eth1
+iface eth1 inet static
+address 10.21.64.1
+netmask 255.255.255.0
+
+auto eth2
+iface eth2 inet static
+address 10.21.66.1
+netmask 255.255.254.0
+```
+
+- 
+
 5. 
