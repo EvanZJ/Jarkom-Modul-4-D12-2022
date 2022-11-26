@@ -65,32 +65,41 @@
 
 3. Masukkan IP berdasarkan subnetting yang sudah dibuat di dalam Packet Tracer
   - Router The Minister
+
   ![](pic/routing-the-minister.png)
   
   - Router The Order
+ 
   ![](pic/routing-the-order.png)
   
   - Router The Resonance
+ 
   ![](pic/routing-the-resonance.png)
   
   ![](pic/routing-the-resonance-2.png)
   
   - Router The Magical
+ 
   ![](pic/routing-the-magical.png)
   
   - Router The Dauntless
+ 
   ![](pic/routing-the-dauntless.png)
   
   - Router The Instrument
+ 
   ![](pic/routing-the-instrument.png)
   
   - Router The Profound
+ 
   ![](pic/routing-the-profound.png)
   
   - Router The Firefist
+ 
   ![](pic/routing-the-firefist.png)
   
   - Router The Queen
+ 
   ![](pic/routing-the-queen.png)
   
 
